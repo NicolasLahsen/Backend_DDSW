@@ -1,0 +1,4 @@
+Access DB:
+1.- docker-compose up -d
+2.- docker exec -it backend_ddsw_db_1 ./bin/bash
+3.- psql -U $POSTGRES_USER $POSTGRES_DB (from .env file)
